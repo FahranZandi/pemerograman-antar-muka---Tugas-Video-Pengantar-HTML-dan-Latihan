@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="register.html">Register</a>
+        <div class="dropdown">
+            <button class="dropbtn">Other menu</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="register-form">
+        <h1>Register</h1>
+        <p>please fill in the form to create an account</p>
+        <hr>
+        <form action="register.html" method="post">
+            <div class="row-input">
+                <label for="email">Email</label>
+                <input
+                type=""
+                id="email"
+                name="email"
+                required
+                placeholder="Enter Email"
+                />
+            </div>
+            <div class="row-input">
+                <label for="password">password</label>
+                <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="Enter password">
+            </div>
+            <div class="row-input">
+                <label for="repassword">Repeat Password</label>
+                <input
+                type="password"
+                id="repassword"
+                name="repassword"
+                required
+                placeholder="repeat your password">
+            </div>
+            <hr>
+            <p>
+                by crating an account your agree to our <a href="#">Terms $ policy</a>
+            </p>
+            <button type="submit">register</button>
+        </form>
+        <div class="footer-form">
+            <p>Already have an account> <a href="#">Sign in</a></p>
+        </div>
+    </div>
+</body>
+</html>
